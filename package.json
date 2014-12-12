@@ -1,0 +1,28 @@
+{
+  "name": "har-compare",
+  "version": "0.0.1",
+  "description": "Compares requests in two har (HTTP Archive) files, to check whether there were some requests missing or with wrong response status.",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:noodny/har-compare.git"
+  },
+  "keywords": [
+    "har",
+    "http",
+    "archive"
+  ],
+  "author": "noodny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noodny/har-compare/issues"
+  },
+  "homepage": "https://github.com/noodny/har-compare"
+}
