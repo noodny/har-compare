@@ -6,7 +6,6 @@ var fs = require('fs'),
 if(args.length < 2) {
     console.error('Missing required parameter.');
     console.log('Usage: node index.js file1 file2 (compares file1 against file2)');
-    console.log('Options: --s - saves resulting diff to a file')
     process.exit();
 }
 
@@ -56,7 +55,7 @@ file2.log.entries.forEach(function (entry) {
             diff.push(entry);
         }
     } else {
-        //console.log('[missing request] ' + entry.request.url.substr(0, 60));
+        console.log('[missing request] ' + entry.request.url.substr(0, 60));
         diff.push(entry);
     }
 });
